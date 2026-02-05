@@ -9,117 +9,185 @@
 
 <body>
 
-    <!-- Home Section -->
-    <section class="home">
-        <h1>Lachugari Sriniketh Reddy</h1>
-        <p>
-            Aspiring Full Stack Developer | Interested in learning frontend and backend development
-        </p>
+    <!-- Navigation Bar -->
+    <nav class="nav-bar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+        <h1>LACHUGARI SRINIKETH REDDY</h1>
+        <p>Aspiring Full Stack Developer | Interested in learning frontend and backend development</p>
     </section>
 
-    <!-- About Section -->
-    <section class="about">
+    <!-- About -->
+    <section id="about">
         <h2>About Me</h2>
         <p>
             I am a student with a passion for technology and a strong interest in software development.
-            I am currently pursuing a degree in Computer Science and am eager to learn and grow in the
-            field of full stack development.
+            I am currently pursuing a degree in Computer Science and eager to grow as a full stack developer.
         </p>
-        <p>
-            <a href="assets/sriniketh_reddy_resume.pdf" target="_blank">
-                Download Resume
-            </a>
-        </p>
+        <a href="assets/sriniketh_reddy_resume.pdf" target="_blank" class="btn-resume">Download Resume</a>
     </section>
 
-    <!-- Skills Section -->
-    <section class="skills">
+    <!-- Education -->
+    <section id="education">
+        <h2>Education</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Bachelor of Technology in Computer Science and Engineering</h3>
+                <p><strong>Vidya Jyothi Institute of Technology</strong></p>
+                <p>2025 – Present</p>
+            </div>
+            <div class="card">
+                <h3>Diploma in Computer Science and Engineering</h3>
+                <p><strong>Indur Institute of Engineering and Technology</strong></p>
+                <p>2022 – 2025</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
         <h2>Skills</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Frontend</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
 
-        <h3>Frontend</h3>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ul>
+            <div class="card">
+                <h3>Backend</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>Flask</li>
+                </ul>
+            </div>
 
-        <h3>Backend</h3>
-        <ul>
-            <li>Python</li>
-            <li>Flask</li>
-        </ul>
-
-        <h3>Database</h3>
-        <ul>
-            <li>MySQL</li>
-        </ul>
+            <div class="card">
+                <h3>Database</h3>
+                <ul>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+        </div>
     </section>
 
-    <!-- Projects Section -->
-    <section class="projects">
+    <!-- Projects -->
+    <section id="projects">
         <h2>Projects</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Online Voting System</h3>
+                <p>A Python GUI-based online voting system.</p>
+                <ul>
+                    <li>Python</li>
+                    <li>Tkinter</li>
+                    <li>MySQL</li>
+                </ul>
+                <a href="https://github.com/LSRINIKETHREDDY/Online-Voting-System" target="_blank" class="btn-card">View
+                    on GitHub</a>
+            </div>
 
-        <h3>Online Voting System</h3>
-        <p>
-            A Python GUI-based online voting system.
-        </p>
-        <ul>
-            <li>Python</li>
-            <li>Tkinter</li>
-            <li>MySQL</li>
-        </ul>
-        <p>
-            Learned how to build a Python GUI application and connect it to a database.
-        </p>
+            <div class="card">
+                <h3>Banking Management System</h3>
+                <p>A banking system developed using C.</p>
+                <ul>
+                    <li>C</li>
+                    <li>Data Structures</li>
+                </ul>
+                <a href="https://github.com/LSRINIKETHREDDY/Banking-Management-System" target="_blank"
+                    class="btn-card">View on GitHub</a>
+            </div>
 
-        <h3>Banking Management System</h3>
-        <p>
-            A banking management system developed using the C programming language.
-        </p>
-        <ul>
-            <li>C</li>
-            <li>Data Structures</li>
-        </ul>
-        <p>
-            Learned how to build a C application and apply data structures effectively.
-        </p>
-
-        <h3>EDUHUB</h3>
-        <p>
-            An online platform that provides minor, major, and B.Tech projects for free.
-            It also offers learning materials, internships, free courses, and discounted courses.
-        </p>
-        <ul>
-            <li>Python</li>
-            <li>Flask</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ul>
-        <p>
-            Learned how to build an online platform using Flask and integrate frontend and backend technologies.
-        </p>
+            <div class="card">
+                <h3>EDUHUB</h3>
+                <p>An online platform providing academic projects and learning resources.</p>
+                <ul>
+                    <li>Python</li>
+                    <li>Flask</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+                <a href="https://eduhub-4gi7.onrender.com/" target="_blank" class="btn-card">View live website</a>
+            </div>
+        </div>
     </section>
-    <section class="contact">
+
+    <!-- Certifications -->
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Ethical Hacking</h3>
+                <p>Ethical Hacking Certification</p>
+                <a href="assets/ethical_hacking_certificate.pdf" target="_blank" class="btn-card">View Certificate</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
         <h2>Contact Me</h2>
         <form class="contact-form">
-            <input type="text" name="name" placeholder="Your Name" required>
-
-            <input type="email" name="email" placeholder="Your Email" required>
-
-            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
             <button type="button">Send Message</button>
         </form>
     </section>
+
+    <!-- Footer -->
     <footer>
         <a href="https://github.com/LSRINIKETHREDDY" target="_blank">
-            <img src="assets/icons/github.png" alt="GitHub">
+            <img src="assets/icons/github.png" alt="GitHub" class="icon-github">
         </a>
         <a href="https://www.linkedin.com/in/lsrinikethreddy/" target="_blank">
-            <img src="assets/icons/linkedln.png" alt="LinkedIn">
+            <img src="assets/icons/linkedin.png" alt="LinkedIn" class="icon-linkedin">
         </a>
     </footer>
+
+    <!-- Active Nav Script -->
+    <script>
+        const sections = document.querySelectorAll("section");
+        const navLinks = document.querySelectorAll(".nav-bar a");
+
+        window.addEventListener("scroll", () => {
+            let current = "";
+
+            // Check if scrolled to the bottom of the page
+            const isAtBottom = (window.innerHeight + window.scrollY) >= document.body.offsetHeight - 50;
+
+            if (isAtBottom) {
+                current = "contact";
+            } else {
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop - 100;
+                    if (window.scrollY >= sectionTop) {
+                        current = section.getAttribute("id");
+                    }
+                });
+            }
+
+            navLinks.forEach(link => {
+                link.classList.remove("active");
+                if (link.getAttribute("href") === `#${current}`) {
+                    link.classList.add("active");
+                }
+            });
+        });
+    </script>
 
 </body>
 
