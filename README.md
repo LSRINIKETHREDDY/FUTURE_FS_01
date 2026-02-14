@@ -93,25 +93,6 @@ FUTURE_FS_01/
 
 ---
 
-## 🚀 Getting Started
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/LSRINIKETHREDDY/FUTURE_FS_01.git
-   ```
-
-2. **Open locally**
-   ```bash
-   cd FUTURE_FS_01
-   ```
-   Open `index.html` in your browser.
-
-3. **Set up contact form**
-   - Get a free access key from [Web3Forms](https://web3forms.com)
-   - Replace the `access_key` value in `index.html`
-
----
-
 ## 👨‍💻 Author
 
 **Lachugari Sriniketh Reddy**
