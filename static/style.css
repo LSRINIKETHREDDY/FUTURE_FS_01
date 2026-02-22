@@ -416,6 +416,28 @@ a:hover {
 }
 
 /* ============================================
+   EXPERIENCE SECTION
+   Styling for experience card elements
+   ============================================ */
+
+/* Duration label with subtle styling */
+.experience-duration {
+    color: var(--text-dim);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-top: 4px;
+}
+
+/* Button group for certificate & LOR */
+.experience-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+/* ============================================
    CONTACT FORM
    Form inputs and submit button
    ============================================ */
