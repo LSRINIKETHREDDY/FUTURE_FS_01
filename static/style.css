@@ -666,3 +666,19 @@ footer img {
         padding: 20px;
     }
 }
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #0f172a;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.maintenance-page h1 {
+    font-size: 3rem;
+    text-align: center;
+}
